@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.27.0"
+  version: "0.28.1"
 
 package:
   name: wsidicomizer
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/w/wsidicomizer/wsidicomizer-${{ version }}.tar.gz
-  sha256: 79b1211a17edd9496382e15dc6e15211a15db5b379e26c31ec60ba136dcd9ebd
+  sha256: 63809afa9c61ff974becaf871da02e3dc364187082a1f9b0e65a66e949b14519
 
 build:
   number: 0
