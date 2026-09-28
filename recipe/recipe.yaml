@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "0.30.0"
+  version: "0.31.0"
 
 package:
   name: wsidicomizer
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/w/wsidicomizer/wsidicomizer-${{ version }}.tar.gz
-  sha256: 1661a8a59fbb90c84c0af1ae474299f1f5d383e2820b6e137e8562678b180f77
+  sha256: 31bd819749142ebda5c2bc1fbbdcff23c5620ebe860eba035fe71fe5b6e93c07
 
 build:
   number: 0
@@ -27,8 +27,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - wsidicom >=0.35.0,<0.36.0
-    - opentile >=0.25.0,<0.26.0
+    - wsidicom <0.37.0,>=0.36.1
+    - opentile <0.27.0,>=0.26.0
     - numpy >=1.22.0
     - pydicom >=3.0.0
     - czifile >=2026.3.12
