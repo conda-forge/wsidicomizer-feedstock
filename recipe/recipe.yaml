@@ -27,8 +27,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - wsidicom >=0.35.0,<0.36.0
-    - opentile >=0.25.0,<0.26.0
+    - wsidicom <0.37.0,>=0.36.1
+    - opentile <0.27.0,>=0.26.0
     - numpy >=1.22.0
     - pydicom >=3.0.0
     - czifile >=2026.3.12
